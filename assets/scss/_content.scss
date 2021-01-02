@@ -31,6 +31,20 @@
       text-justify: auto;
       hyphens: auto;
     }
+    .toc {
+      border: 1px solid gray;
+      border-radius: 0.5rem;
+      padding: .5em;
+      ul {
+        list-style: decimal;
+        li {
+          a {
+            color: $fg-color;
+            font-family: $heading-font-family;
+          }
+        }
+      }
+    }
   }
   .post {
     .post-title {

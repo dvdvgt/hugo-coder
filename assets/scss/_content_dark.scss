@@ -15,6 +15,16 @@
         }
       }
     }
+    .toc {
+
+      ul {
+        li {
+          a {
+            color: $fg-color-dark;
+          }
+        }
+      }
+    }
 
     .centered {
       .about {

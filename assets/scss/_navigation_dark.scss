@@ -11,6 +11,11 @@
         color: $link-color-dark;
       }
     }
+    .navigation-title {
+      .logo_cursor {
+        background: $fg-color-dark;
+      }
+    }
     .navigation-list {
       @media only screen and (max-width : 768px) {
         background-color: $bg-color-dark;

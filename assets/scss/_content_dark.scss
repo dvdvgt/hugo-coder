@@ -5,6 +5,13 @@
     .list {
       ul {
         li {
+          a {
+            color: $fg-color-dark;
+            &:hover,
+            &:focus {
+              color: $link-color-dark;
+            }
+          }
           .title {
             color: $fg-color-dark;
             &:hover,
@@ -26,6 +33,34 @@
       }
     }
 
+    .post {
+      .post-meta {
+        .tags a {
+          color: $fg-color-dark;
+          &:hover,
+          &:focus {
+            color: $link-color;
+          }
+        }
+        .categories a {
+          color: $fg-color-dark;
+          &:hover,
+          &:focus {
+            color: $link-color;
+          }
+        }
+      }
+      .see-also {
+        a {
+          color: $fg-color-dark;
+          &:hover,
+          &:focus {
+            color: $link-color;
+          }
+        }
+      }
+    }
+
     .centered {
       .about {
         ul {
@@ -40,6 +75,9 @@
           }
         }
       }
+    }
+    .avatar img {
+      filter: invert(80%);
     }
   }
 

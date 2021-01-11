@@ -18,6 +18,25 @@
   .navigation-title {
     letter-spacing: 0.1rem;
     text-transform: uppercase;
+    .logo_cursor {
+        display: inline-block;
+        width: 1.25rem;
+        height: 2px;
+        background: $fg-color;
+        border-radius: 5px;
+        animation: cursor 1.25s infinite;
+    }
+    @keyframes cursor {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
   }
   .navigation-list {
     float: right;
